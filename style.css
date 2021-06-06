@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    padding: 2vh;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+footer{
+    padding: 2vh;
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+#subject{
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.Button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    /* display:flex;
+    flex-direction: column; */
+}
+#Button1{
+    margin: 10px;
+    padding: 10px;
+    
+}
+#Button2{
+    margin:10px;
+    padding: 10px 25px 10px 25px;
+    
+}
+
+#Button3{
+    margin:10px;
+    padding: 10px 12px;
+}
+#Button4{
+    margin:10px;
+    padding: 10px 20px;
+}
+#Button5{
+    margin:10px;
+    padding: 10px 18px;
+    
+}
+
+#List{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 30px 100px 30px 100px;
+    border:2px solid blue;
+    border-radius: 5px;
+}
+
+.ButtonES{
+    background-color:black ;
+    color: white;
+    padding: 8px;
+    margin:3px;
+    font-size: 20px
+}
+#title{
+    text-align: center;
+    margin: 10px;
+}
+#Esiot{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    
+}
